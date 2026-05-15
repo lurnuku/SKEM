@@ -1,0 +1,32 @@
+node_modules
+
+# Build / output
+.output
+.svelte-kit
+build
+dist
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Tooling
+.vercel
+.netlify
+.wrangler
+.claude
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+tmp/
+
+# OS files
+Thumbs.db
+Desktop.ini
