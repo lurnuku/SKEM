@@ -5,6 +5,10 @@ But I am not sure how to set it up properly yet, gonna have to figure it out */ 
 
 <script lang="ts">
 	import Insert from '../components/Insert.svelte'
+	import Logo from '../components/Logo.svelte'
 </script>
 
-<Insert />
+<section class="flex flex-col items-center justify-center gap-20">
+	<Logo />
+	<Insert />
+</section>
